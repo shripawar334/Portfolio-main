@@ -122,14 +122,14 @@ const AboutPage = () => {
               className="text-gray-600 dark:text-gray-400"
               variants={itemVariants}
             >
-              I'm a passionate Full Stack Developer with a strong focus on creating modern, responsive, and user-friendly web applications. With several years of experience in the field, I've developed a deep understanding of both frontend and backend technologies.  
+              I&apos;m a passionate Full Stack Developer with a strong focus on creating modern, responsive, and user-friendly web applications. With several years of experience in the field, I&apos;ve developed a deep understanding of both frontend and backend technologies.  
             </motion.p>
             
             <motion.p 
               className="text-gray-600 dark:text-gray-400"
               variants={itemVariants}
             >
-              My journey in web development began when I was in college, where I discovered my passion for coding and problem-solving. Since then, I've been continuously learning and improving my skills to stay up-to-date with the latest technologies and best practices.
+              My journey in web development began when I was in college, where I discovered my passion for coding and problem-solving. Since then, I&apos;ve been continuously learning and improving my skills to stay up-to-date with the latest technologies and best practices.
             </motion.p>
             
             <motion.p 
@@ -210,7 +210,7 @@ const AboutPage = () => {
               variants={itemVariants}
             >
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-purple-500"></div>
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Bachelor's Degree in Computer Science</h3>
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Bachelor&apos;s Degree in Computer Science</h3>
               <p className="text-purple-600 dark:text-purple-400">Pune University | 2022 - 2026</p>
               <p className="text-gray-600 dark:text-gray-400 mt-2">
              Studied Computer Science with a focus on Web Development and Software Engineering, consistently maintaining a 9+ CGPA, while actively participating in various coding competitions and hackathons.

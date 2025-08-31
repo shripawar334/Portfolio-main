@@ -67,7 +67,7 @@ const ContactPage = () => {
             Get In Touch
           </h1>
           <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Feel free to reach out via email or phone. I'm always open to discussing new opportunities and collaborations!
+            Feel free to reach out via email or phone. I&apos;m always open to discussing new opportunities and collaborations!
           </p>
         </motion.div>
 
