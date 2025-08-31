@@ -31,8 +31,8 @@ const HomePage = () => {
   }
 
   const socialLinks = [
-    { icon: <FiGithub size={20} />, url: 'https://github.com/shripawar334', label: 'GitHub' },
-    { icon: <FiLinkedin size={20} />, url: 'https://linkedin.com', label: 'LinkedIn' },
+    // { icon: <FiGithub size={20} />, url: 'https://github.com/shripawar334', label: 'GitHub' },
+    // { icon: <FiLinkedin size={20} />, url: 'https://linkedin.com', label: 'LinkedIn' },
    
   ]
 
@@ -60,25 +60,7 @@ const HomePage = () => {
             A passionate <span className="font-semibold text-purple-600 dark:text-purple-400">Full Stack Developer</span> creating modern and responsive web applications with cutting-edge technologies.
           </motion.p>
           
-          <motion.div 
-            className="flex space-x-4"
-            variants={itemVariants}
-          >
-            {socialLinks.map((link, index) => (
-              <motion.a 
-                key={index}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3 rounded-full bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 shadow-sm hover:shadow-md transition-all"
-                whileHover={{ y: -5 }}
-                whileTap={{ scale: 0.95 }}
-                aria-label={link.label}
-              >
-                {link.icon}
-              </motion.a>
-            ))}
-          </motion.div>
+         
           
           <motion.div
             className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
