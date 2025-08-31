@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FiExternalLink, FiGithub, FiTag } from 'react-icons/fi'
+import Image from 'next/image'
 
 const ProjectsPage = () => {
   const [filter, setFilter] = useState('all')
@@ -114,7 +115,7 @@ const ProjectsPage = () => {
             My Projects
           </h1>
           <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Here are some of the projects I've worked on. Feel free to explore and check out the live demos or code repositories.
+            Here are some of the projects I&apos;ve worked on. Feel free to explore and check out the live demos or code repositories.
           </p>
         </motion.div>
 
@@ -168,9 +169,11 @@ const ProjectsPage = () => {
                 whileHover={{ y: -5 }}
               >
                 <div className="relative overflow-hidden group">
-                  <img 
-                    src={project.image} 
-                    alt={project.title} 
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    width={400}
+                    height={192}
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-start p-6">

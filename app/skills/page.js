@@ -120,7 +120,7 @@ const SkillsPage = () => {
             My Skills
           </h1>
           <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Here are some of the skills and technologies I've worked with over the years.
+            Here are some of the skills and technologies I&apos;ve worked with over the years.
           </p>
         </motion.div>
 
@@ -165,7 +165,7 @@ const SkillsPage = () => {
           variants={itemVariants}
         >
           <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-8 text-center">
-            Technologies I've Worked With
+            Technologies I&apos;ve Worked With
           </h2>
           
           <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">

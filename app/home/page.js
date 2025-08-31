@@ -49,7 +49,7 @@ const HomePage = () => {
             className="text-5xl md:text-6xl font-bold leading-tight"
             variants={itemVariants}
           >
-            <span className="block">Hi, I'm</span>
+            <span className="block">Hi, I&apos;m</span>
             <span className="bg-gradient-to-r from-purple-600 to-blue-500 text-transparent bg-clip-text">Shripad Pawar</span>
           </motion.h1>
           
