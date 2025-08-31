@@ -41,7 +41,7 @@ const ContactPage = () => {
       icon: <FiPhone className="text-purple-600" size={24} />,
       title: 'Phone',
       details: '+91 8010292853',
-      link: 'tel:+11234567890'
+      link: 'tel:8010292853'
     },
     {
       icon: <FiMapPin className="text-purple-600" size={24} />,
