@@ -37,7 +37,7 @@ const SkillsPage = () => {
       icon: <FiLayers className="text-purple-600" size={24} />,
       skills: [
         { name: 'Java', proficiency: 95 },
-        { name: 'C++', proficiency: 70 },
+       
         { name: 'Python', proficiency: 70 },
        
       ]
@@ -60,8 +60,7 @@ const SkillsPage = () => {
         { name: 'Node.js', proficiency: 80 },
         { name: 'Express.js', proficiency: 75 },
         { name: 'Python', proficiency: 70 },
-        { name: 'Django', proficiency: 65 },
-        { name: 'RESTful APIs', proficiency: 85 },
+       
       ]
     },
     {
@@ -73,6 +72,20 @@ const SkillsPage = () => {
 
       ]
     },
+     {
+      title: 'Data Science & Machine Learning',
+      icon: <FiDatabase className="text-purple-600" size={24} />,
+      skills: [
+        { name: 'pandas', proficiency: 80 },
+        { name: 'NumPy', proficiency: 75 },
+        { name: 'matplotlib', proficiency: 75 },
+        { name: 'scikit-learn', proficiency: 75 },
+        { name: 'python', proficiency: 75 },
+        { name: 'data preprocessing', proficiency: 75 },
+
+
+      ]
+    },
     {
       title: 'Tools & Others',
       icon: <FiTool className="text-purple-600" size={24} />,
@@ -81,6 +94,7 @@ const SkillsPage = () => {
         { name: 'Data Structures And Algorithms', proficiency: 85 },
         { name: 'Google Cloud', proficiency: 65 },
         { name: 'WordPress', proficiency: 85 },
+        { name: 'AWS', proficiency: 85 }
 
       ]
     },

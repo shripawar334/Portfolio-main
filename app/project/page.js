@@ -37,7 +37,7 @@ const ProjectsPage = () => {
       title: 'E-Commerce Platform',
       description: 'A full-featured e-commerce platform with product management, cart functionality, user authentication, and payment processing.',
        image: '/ecom.png',
-      tags: ['Web App', 'React', 'Node.js', 'MongoDB'],
+      tags: ['Web App', 'Next.js', 'Node.js', 'MongoDB'],
       demoLink: 'https://ecommerce-app-ten-lemon.vercel.app/',
       githubLink: 'https://github.com/shripawar334/ecommerce_app',
       category: 'web'
@@ -47,7 +47,7 @@ const ProjectsPage = () => {
       title: 'Smart EV Charging-Booking System',
       description: 'A web application that allows users to book and manage electric vehicle charging stations with real-time availability and payment integration.',
        image: '/ev.png',
-      tags: ['Web App', 'React', 'Node.js', 'MongoDB'],
+      tags: ['Web App', 'Next.js', 'Node.js', 'MongoDB'],
       demoLink: 'https://example.com',
       githubLink: 'https://github.com/shripawar334/Booking-EV-Charging-Slot-System',
       category: 'web'
@@ -57,7 +57,7 @@ const ProjectsPage = () => {
       title: 'Task Management App',
       description: 'A productivity app for managing tasks, projects, and deadlines with team collaboration features.',
        image: '/todo2.png',
-      tags: ['Web App', 'React', 'Firebase'],
+      tags: ['Web App', 'React', 'Node.js', 'MongoDB'],
       demoLink: 'https://todoapp-chi-wheat.vercel.app/',
       githubLink: 'https://github.com/shripawar334/Todo',
       category: 'web'
@@ -68,7 +68,7 @@ const ProjectsPage = () => {
       title: 'URL Shortener',
       description: 'A simple and efficient URL shortening service with analytics and custom alias support.',
       image: '/url.png',
-      tags: ['Blockchain', 'Solidity', 'Web3.js'],
+      tags: ['Next.js', 'Node.js', 'MongoDB'],
       demoLink: '',
       githubLink: 'https://github.com/shripawar334/url',
       category: 'web'
@@ -78,21 +78,33 @@ const ProjectsPage = () => {
       title: 'Personal Portfolio',
       description: 'A modern and responsive personal portfolio website to showcase projects, skills, and experience.',
       image: '/folio.png',
-      tags: ['Blockchain', 'Solidity', 'Web3.js'],
+      tags: ['Next.js', 'Tailwind CSS'],
       demoLink: '',
-      githubLink: '',
+      githubLink: 'https://github.com/shripawar334/Portfolio-main/tree/main',
       category: 'web'
     },
-    {
-      id: 8,
-      title: 'Divine Connect',
-      description: ' Developed a web application using Next.js that centralizes information about great devotees, providing detailed profiles and multimedia integration. Created a unified digital hub to enhance accessibility and engagement for spiritual knowledge seekers.',
-      image: '/devotee.png',
-      tags: ['Blockchain', 'Solidity', 'Web3.js'],
+    // {
+    //   id: 8,
+    //   title: 'Divine Connect',
+    //   description: ' Developed a web application using Next.js that centralizes information about great devotees, providing detailed profiles and multimedia integration. Created a unified digital hub to enhance accessibility and engagement for spiritual knowledge seekers.',
+    //   image: '/devotee.png',
+    //   tags: ['Next.js', 'Node.js', 'MongoDB'],
+    //   demoLink: '',
+    //   githubLink: '',
+    //   category: 'web'
+    // },
+    
+     {
+      id: 9,
+      title: ' Tumor Detection using Machine Learning',
+      description: 'Developed a predictive model using the Random Forest algorithm to detect tumors from MRI data with high accuracy',
+      image: '/tumor.png',
+      tags: ['Machine Learning', 'Numpy', 'Pandas', 'Scikit-Learn', 'Matplotlib'],
       demoLink: '',
-      githubLink: 'https://github.com/shripawar334/url',
-      category: 'web'
+      githubLink: 'https://github.com/shripawar334/Tumor-Detection-ML-Project',
+      category: 'ai'
     }
+
   ]
 
   const filteredProjects = filter === 'all' 
