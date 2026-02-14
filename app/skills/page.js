@@ -82,6 +82,7 @@ const SkillsPage = () => {
         { name: 'scikit-learn', proficiency: 75 },
         { name: 'python', proficiency: 75 },
         { name: 'data preprocessing', proficiency: 75 },
+        { name: 'FastAPI', proficiency: 85 },
 
 
       ]
@@ -94,7 +95,8 @@ const SkillsPage = () => {
         { name: 'Data Structures And Algorithms', proficiency: 85 },
         { name: 'Google Cloud', proficiency: 65 },
         { name: 'WordPress', proficiency: 85 },
-        { name: 'AWS', proficiency: 85 }
+        { name: 'AWS', proficiency: 85 },
+        { name: 'Docker', proficiency: 85 }
 
       ]
     },
@@ -111,7 +113,6 @@ const SkillsPage = () => {
     { icon: <FiZap />, name: 'Tailwind CSS' },
     { icon: <FiServer />, name: 'Node.js' },
     { icon: <FiServer />, name: 'Express.js' },
-    { icon: <FiServer />, name: 'Django' }, 
     { icon: <FiDatabase />, name: 'MongoDB' },
     { icon: <FiDatabase />, name: 'MySQL' },
 
