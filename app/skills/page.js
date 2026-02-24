@@ -88,6 +88,14 @@ const SkillsPage = () => {
       ]
     },
     {
+      title: 'Data Analytics',
+      icon: <FiDatabase className="text-purple-600" size={24} />,
+      skills: [
+        { name: 'Power BI', proficiency: 80 },
+        { name: 'Excel', proficiency: 75 },
+      ]
+    },
+    {
       title: 'Tools & Others',
       icon: <FiTool className="text-purple-600" size={24} />,
       skills: [
