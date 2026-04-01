@@ -108,6 +108,7 @@ const ProjectsPage = () => {
       id: 10,
       title: ' AI Chatbot with RAG using LangGraph',
       description: 'Built a stateful AI chatbot using LangGraph for multi-step conversational workflows, integrating retrieval-augmented generation (RAG) techniques to provide accurate and context-aware responses.',
+      image: '/chatbot.png',
       tags: ['AI', 'LangGraph', 'RAG', 'Streamlit'],
       demoLink: '',
       githubLink: 'https://github.com/shripawar334/Chatbot-using-LangGraph',

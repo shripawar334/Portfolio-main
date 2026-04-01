@@ -156,7 +156,7 @@ const HomePage = () => {
           >
             <div className="w-full h-full relative rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
               <Image
-                src="/shree.jpeg"
+                src="/photo.jpeg"
                 alt="Profile Photo"
                 fill
                 className="object-cover"
