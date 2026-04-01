@@ -57,7 +57,7 @@ const HomePage = () => {
             className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-xl"
             variants={itemVariants}
           >
-            A passionate <span className="font-semibold text-purple-600 dark:text-purple-400">Full Stack Developer</span> creating modern and responsive web applications with cutting-edge technologies.
+            A passionate <span className="font-semibold text-purple-600 dark:text-purple-400">Full Stack Developer</span> focused on building modern, responsive web applications and AI-powered solutions using cutting-edge technologies.
           </motion.p>
           
           <motion.div 
@@ -156,7 +156,7 @@ const HomePage = () => {
           >
             <div className="w-full h-full relative rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
               <Image
-                src="/photo.jpeg"
+                src="/shree.jpeg"
                 alt="Profile Photo"
                 fill
                 className="object-cover"
