@@ -32,6 +32,16 @@ const ProjectsPage = () => {
   }
 
   const projects = [
+     {
+      id: 11,
+      title: 'FraudGuard-AI: Fraud Detection System',
+      description: 'Developed a machine learning-based fraud detection system that analyzes transaction data to identify and prevent fraudulent activities in real-time, enhancing security and trust for users.',
+      image: '/fraud.png',
+      tags: ['Machine Learning', 'Python', 'Scikit-Learn', 'Pandas', 'FastAPI','Next.js'],
+      demoLink: 'https://fraud-guard-ai-silk.vercel.app/',
+      githubLink: 'https://github.com/shripawar334/FraudGuard-AI',
+      category: 'ai'
+    },
     {
       id: 1,
       title: 'E-Commerce Platform',
@@ -114,6 +124,7 @@ const ProjectsPage = () => {
       githubLink: 'https://github.com/shripawar334/Chatbot-using-LangGraph',
       category: 'ai'
     }
+   
 
   ]
 

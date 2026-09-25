@@ -80,7 +80,7 @@ const AboutPage = () => {
             whileTap={{ scale: 0.95 }}
           >
             <a
-              href="/final.pdf"
+              href="/main.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 font-medium rounded-lg shadow-md hover:shadow-lg border border-purple-200 dark:border-purple-800/30 transition-all"
@@ -109,7 +109,7 @@ const AboutPage = () => {
             >
               <div className="w-full h-full relative rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
                 <Image
-                  src="/photo.jpeg"
+                  src="/phh.png"
                   alt="Profile Photo"
                   fill
                   className="object-cover"

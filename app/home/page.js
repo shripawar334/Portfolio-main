@@ -32,7 +32,7 @@ const HomePage = () => {
 
   const socialLinks = [
     { icon: <FiGithub size={20} />, url: 'https://github.com/shripawar334', label: 'GitHub' },
-    { icon: <FiLinkedin size={20} />, url: 'https://linkedin.com', label: 'LinkedIn' },
+    { icon: <FiLinkedin size={20} />, url: 'https://www.linkedin.com/in/shripad-pawar-235b4a253/', label: 'LinkedIn' },
    
   ]
 
@@ -57,7 +57,7 @@ const HomePage = () => {
             className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-xl"
             variants={itemVariants}
           >
-            A passionate <span className="font-semibold text-purple-600 dark:text-purple-400">Full Stack Developer</span> creating modern and responsive web applications with cutting-edge technologies.
+            A passionate <span className="font-semibold text-purple-600 dark:text-purple-400">AI Full Stack Developer</span> creating modern and responsive web applications with cutting-edge technologies.
           </motion.p>
           
           <motion.div 
@@ -117,7 +117,7 @@ const HomePage = () => {
               whileTap={{ scale: 0.95 }}
             >
               <a
-                href="/final.pdf"
+                href="/main.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-full px-6 py-3 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 font-medium rounded-lg shadow-md hover:shadow-lg border border-purple-200 dark:border-purple-800/30 transition-all"
@@ -156,7 +156,7 @@ const HomePage = () => {
           >
             <div className="w-full h-full relative rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
               <Image
-                src="/photo.jpeg"
+                src="/phh.png"
                 alt="Profile Photo"
                 fill
                 className="object-cover"
