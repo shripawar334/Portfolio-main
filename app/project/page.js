@@ -43,6 +43,16 @@ const ProjectsPage = () => {
       category: 'ai'
     },
     {
+      id: 12,
+      title: 'TeraQSAR – AI-Based QSAR Teratogenicity Prediction',
+      description: 'TeraQSAR is an AI-based QSAR prediction platform that uses molecular descriptors and a Random Forest classifier to predict grouped historical pregnancy-risk categories for drugs. Built with FastAPI and Next.js, it provides interactive predictions and class probability visualizations through a web interface.',
+      image: '/qsar.png',
+      tags: ['Machine Learning', 'Python', 'Scikit-Learn', 'Pandas', 'FastAPI','Next.js'],
+      demoLink: 'https://tera-qsar.vercel.app/',
+      githubLink: 'https://github.com/shripawar334/TeraQSAR-Frontend',
+      category: 'ai'
+    },
+    {
       id: 1,
       title: 'E-Commerce Platform',
       description: 'A full-featured e-commerce platform with product management, cart functionality, user authentication, and payment processing.',
